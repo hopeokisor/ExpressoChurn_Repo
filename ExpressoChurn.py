@@ -9,7 +9,7 @@ import pickle
 #----------------------LOAD MODEL--------------------
 model = pickle.load(open('ExpressoChurn1.pkl', "rb"))
 
-st.markdown("<h1 style = 'text-align: centre; color: #435334'>START UP PROJECT</h1> ", unsafe_allow_html = True)
+st.markdown("<h1 style = 'text-align: centre; color: #435334'>EXPRESSO CHURN PROJECT</h1> ", unsafe_allow_html = True)
 st.markdown("<h3 style = ''text-align: centre; text-align: right; color: #FFC436'>Built By Hope In GoMyCode Sanaith Wizard</h3>", unsafe_allow_html= True)
 
 st.image('pngwing.com (9).png', width=700)
