@@ -24,7 +24,7 @@ username = st.text_input('Enter your name')
 if st.button('submit name'):
     st.success(f"Welcome {username}. Pls use according to usage guidelines")
 
-data = pd.read_csv('sampled_data.csv.csv')
+data = pd.read_csv('sampled_data.csv')
 st.write(data.sample(10))
 
 st.sidebar.image('pngwing.com (10).png', caption= f'Welcome {username}')
